@@ -35,7 +35,7 @@ schedule: "*/10 * * * *"
 | 变量 | 说明 |
 |------|------|
 | `NOTIFIER_CONFIG` | 配置文件路径（默认 `./config.yaml`） |
-| `NOTIFY_TOKEN` | 通知接口认证 token |
+| `NOTIFY_TOKEN` | 通知接口认证TOKEN（缺失将无法发送请求至Wikit后端） |
 | `LOG_LEVEL` | 日志级别（默认 `info`） |
 
 ## 安装与运行
